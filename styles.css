@@ -1,0 +1,97 @@
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #c0a383; /* Marrón claro elegante */
+    background-color: #1c1c1c; /* Fondo negro */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1, h2 {
+    color: #a67c52; /* Marrón oscuro/dorado */
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    margin: 20px 0 10px;
+    font-size: 1.8rem;
+}
+
+/* Header Section */
+.hero {
+    background: url('callosa.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.hero p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    color: #d4c2ac; /* Texto en tono claro */
+}
+
+/* Navbar */
+.navbar {
+    background: #2c2c2c; /* Negro más claro */
+    color: #c0a383;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #c0a383;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #d4af37; /* Efecto dorado al pasar */
+}
+
+/* Sections */
+.section {
+    padding: 20px 0;
+}
+
+.section-alt {
+    background: #292929; /* Fondo gris oscuro */
+}
+
+/* Featured Image */
+.featured {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.featured img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+.footer {
+    background: #2c2c2c;
+    color: #c0a383;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
